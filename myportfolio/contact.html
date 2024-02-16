@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title>HiiDev Portfolio</title>
+  <link rel="stylesheet" href="contact.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f96071fac1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav>
+    <div class="logo_wrapper">
+      <div class="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <a href="index.html"class="logo_link">
+        <div class="logo">
+          <h2>H<span>D</span></h2>
+          <p>home</p>
+        </div>
+      </a>
+    </div>
+    <div class="nav_item_wrapper">
+      <ul>
+        <li><a href="index.html" class="navlinks">home</a></li>
+        <li><a href="service.html" class="navlinks">service</a></li>
+        <li><a href="portfolio.html" class="navlinks">portfolio</a></li>
+        <li><a href="about.html" class="navlinks">about me</a></li>
+        <!--<li><a href="product.html" class="navlinks">my product</a></li>-->
+      </ul>
+      <div class="mode">
+        <input type="checkbox" class="darkBtn" id="darkBtn" onclick="changeMode()">
+        <label for="darkBtn" class="dark_label">
+          <i class="fa-solid fa-moon"></i>
+          <i class="fa-regular fa-sun"></i>
+          <div class="dark_ball"></div>
+        </label>
+      </div>
+    </div>
+  </nav>
+  <div class="about_wrapper">
+    <div class="contact_intro">
+      <h2>contact me</h2>
+      <p>get in touch with fast response</p>
+    </div>
+    <div class="contact_item_wrapper">
+      <div class="contact_item_1">
+        <h3>meet me</h3>
+
+        <div class="contact_item_details">
+
+          <div class="meet_datils">
+            <h4><span><i class="fa-solid fa-phone"></i></span> phone</h4>
+            <p>+23409017912210</p>
+          </div>
+
+          <div class="meet_datils">
+            <h4><span><i class="fa-solid fa-location-dot"></i></span> location</h4>
+            <p>lagos island/Minna</p>
+          </div>
+
+          <div class="meet_datils">
+            <h4><span><i class="fa-regular fa-envelope"></i></span> email</h4>
+            <p>cadetolati@gmail.com</p>
+            <p>olatimeleyinisaac@gmail.com</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="contact_item_2">
+        <h3>get in touch</h3>
+        <form action="https://formsubmit.co/cadetolati@gmail.com" method="POST">
+          <div class="form_container">
+            <label for="name">name</label>
+            <input type="text" name="username" id="name" required>
+          </div>
+
+          <div class="form_container">
+            <label for="email">email</label>
+            <input type="email" name="useremail" id="email" required>
+          </div>
+
+          <div class="form_container">
+            <label for="textarea">how can i help you?</label>
+            <textarea name="message" id="textarea" cols="30" rows="6" ></textarea>
+          </div>
+           <button type="submit">submit</button>
+        </form>
+      </div>
+
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer_wrapper">
+      <div class="footer_logo">
+        <h1><a href="about.html">HiiDev</a></h1>
+      </div>
+      <div class="footer_link">
+        <ul>
+          <li><a href="service.html">service</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="portfolio.html">portfolio</a></li>
+          <li><a href="contact.html">contact me</a></li>
+          <li><a href="product.html">product</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer_para">
+      <p><a href="#">cadetolati@gmail.com</a></p>
+      <p><span><i class="fa-regular fa-copyright"></i></span> Olatimehin Isaac</p>
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
